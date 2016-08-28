@@ -1,5 +1,5 @@
 #!/bin/bash
-#get http://busybox.net/downloads/busybox-1.23.2.tar.bz2
+get http://busybox.net/downloads/busybox-1.23.2.tar.bz2
 tar xjf busybox-1.23.2.tar.bz2
 mkdir initramfs
 mkdir initramfs/{bin,etc,proc,sbin,sys,usr,dev}
